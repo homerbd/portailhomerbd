@@ -10,11 +10,6 @@ import path from "path";
 
 // https://vitejs.dev
 export default defineConfig({
-  base: './', // <-- AJOUTER CETTE LIGNE ICI
-  plugins: [react()],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
-});
+  base: '/portailhomerbd/', // Remplacer par le nom exact de ton dépôt GitHub
+  // ... le reste de ta config
+})
