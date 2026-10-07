@@ -23,8 +23,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 24 # Mise à jour vers la version demandée par GitHub
 
       - name: Install dependencies
         run: npm install
