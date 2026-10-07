@@ -26,7 +26,7 @@ jobs:
           node-version: 24 # Mise à jour vers la version demandée par GitHub
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build
         run: npm run build
